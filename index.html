@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of a Multimedia Computing student interested in web development, UI/UX design, and technology.">
+    <title>Paulus Chawong | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="#home" class="logo">PAULUS<span>.</span></a>
+
+            <button class="menu-toggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#journey">My Journey</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="theme-toggle" aria-label="Toggle colour theme">
+                ☀
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME SECTION -->
+        <section id="home" class="hero section">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>Hi, I'm <span>Paulus Chawong</span></h1>
+
+                <h2>Multimedia Computing Student</h2>
+
+                <p class="hero-description">
+                    I am passionate about web development, UI/UX design,
+                    and creating useful digital experiences.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Projects
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-card" aria-label="Portfolio introduction">
+                <div class="profile-icon" aria-hidden="true">PC</div>
+                <h3>Creative Learner</h3>
+                <p>Design · Code · Create</p>
+                <span class="status">Open to learning opportunities</span>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="about-content">
+                <div>
+                    <h3>Who am I?</h3>
+                    <p>
+                        I am a third-year Multimedia Computing student
+                        interested in web development, UI/UX design,
+                        and technology. This portfolio introduces my
+                        skills, learning journey, and projects.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <p><strong>Field:</strong> Multimedia Computing</p>
+                    <p><strong>Interests:</strong> Web Development and UI/UX</p>
+                    <p><strong>Goal:</strong> Improve my technical and creative skills</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I AM LEARNING</p>
+                <h2>My <span>Skills</span></h2>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Building the structure of web pages.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Styling layouts and responsive interfaces.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Adding interaction and dynamic behaviour.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Figma</h3>
+                    <p>Designing user interfaces and prototypes.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>MySQL</h3>
+                    <p>Creating and managing databases.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">MY WORK</p>
+                <h2>Featured <span>Projects</span></h2>
+                <p>Some projects related to my studies and interests.</p>
+            </div>
+
+            <div class="project-filters" aria-label="Filter projects">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="database">Database</button>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card" data-category="design">
+                    <p class="project-number">PROJECT 01</p>
+                    <h3>Student Transit App</h3>
+                    <p>
+                        A proposed mobile app to help students explore
+                        bus routes, schedules, and transport information.
+                    </p>
+                    <span class="tag">UI/UX Design</span>
+                </article>
+
+                <article class="project-card" data-category="web">
+                    <p class="project-number">PROJECT 02</p>
+                    <h3>Personal Portfolio Website</h3>
+                    <p>
+                        A responsive personal website presenting my
+                        background, skills, and academic projects.
+                    </p>
+                    <span class="tag">HTML · CSS · JavaScript</span>
+                </article>
+
+                <article class="project-card" data-category="database">
+                    <p class="project-number">PROJECT 03</p>
+                    <h3>Database Management Project</h3>
+                    <p>
+                        A learning project involving database tables,
+                        relationships, and SQL queries.
+                    </p>
+                    <span class="tag">MySQL</span>
+                </article>
+
+                <article class="project-card" data-category="design">
+                    <p class="project-number">PROJECT 04</p>
+                    <h3>Mobile App Interface</h3>
+                    <p>
+                        An interface design concept focusing on clear
+                        navigation and a user-friendly experience.
+                    </p>
+                    <span class="tag">Figma</span>
+                </article>
+
+                <article class="project-card" data-category="web">
+                    <p class="project-number">PROJECT 05</p>
+                    <h3>Web Development Practice</h3>
+                    <p>
+                        Small web exercises created to practise page
+                        layouts, styling, and interactive features.
+                    </p>
+                    <span class="tag">Web Development</span>
+                </article>
+            </div>
+
+            <p class="project-note">
+                Note: Update these descriptions to accurately reflect
+                your completed work before submitting your portfolio.
+            </p>
+        </section>
+
+        <!-- JOURNEY SECTION -->
+        <section id="journey" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">MY DEVELOPMENT</p>
+                <h2>My Learning <span>Journey</span></h2>
+            </div>
+
+            <div class="journey-card">
+                <h3>Multimedia Computing Student</h3>
+                <p>
+                    Through my studies, I am developing knowledge of
+                    programming, database systems, multimedia design,
+                    and user interface development.
+                </p>
+                <p>
+                    My next goal is to strengthen my practical skills
+                    by building more projects and learning new tools.
+                </p>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Contact <span>Me</span></h2>
+                <p>Feel free to contact me about my work or projects.</p>
+            </div>
+
+            <div class="contact-card">
+                <p><strong>Name:</strong> Paulus Chawong Anak Suliman</p>
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:pauluschawong2004@gmail.com">
+                        pauluschawong2004@gmail.com
+                    </a>
+                </p>
+
+                <button id="copy-email" class="btn btn-primary">
+                    Copy Email Address
+                </button>
+                <p id="copy-message" role="status" aria-live="polite"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>
+            &copy; <span id="current-year"></span>
+            Paulus Chawong. Built with HTML, CSS, and JavaScript.
+        </p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+</body>
+</html>
